@@ -24,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
         btnAdd = findViewById(R.id.btnAdd);
         etItem = findViewById(R.id.etItem);
         rvItems = findViewById(R.id.rvItems);
-        //etItem.setText("Lord, what's this mess!");
+        //etItem.setText("wWhat's this!");
+        // This list should automatically populate when I open the app    
         items = new ArrayList<String>();
         items.add("Java");
         items.add("Kotlin");
